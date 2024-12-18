@@ -1,0 +1,56 @@
+.swarnim-multi-chat-button {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px; /* Adds spacing between buttons */
+    text-align: center;
+}
+
+.swarnim-multi-chat-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.swarnim-multi-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically */
+    /* gap: 10px; */ 
+}
+.form-table tr {
+    display: flex;
+    flex-direction: column;
+}
+.form-table tr td {
+    padding: 0;
+}
+#swarnim-multi-chat-users .user {
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+    border: 1px solid;
+    max-width: 400px;!;!importan;!i;!;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#swarnim-multi-chat-users button {
+    max-width: 150px;
+    height: 30px;
+}
+#swarnim-multi-chat-users input {
+    max-width: 400px;
+    /* width: 100%; */
+}
+#swarnim-multi-chat-users button#add-user {
+    margin-bottom: 20px;
+}
+#swarnim-multi-chat-users .user h4 {
+    padding: 0;
+    margin: 0;
+}
